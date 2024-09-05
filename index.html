@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My 3 Dream Vacation Places</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My 3 Dream Vacation Places</h1>
+    <div class="container">
+        <h1>My 3 Dream Vacation Places</h1>
     <h2>Dubai, United Arab Emirates(UAE)</h2>
     <p>I chose Dubai as my top destination because it offers a unique blend of modern innovation and cultural heritage. The city's stunning architecture, luxurious experiences, and vibrant atmosphere captivate me. Dubai's ability to merge tradition with cutting-edge advancements makes it a special place I am eager to explore.</p>
 
@@ -64,21 +66,21 @@
         <figure>
             <img src="./images/timesquare.jpg" alt="">
             <figcaption>
-                Beautiful Image of the Timesquare in New York City
+                Beautiful Image of the Timesquare
             </figcaption>
         </figure>
 
         <figure>
             <img src="./images/centralpark.jpg" alt="">
             <figcaption>
-                Beautiful Image of the Central Park in New York City
+                Beautiful Image of the Central Park
             </figcaption>
         </figure>
 
         <figure>
             <img src="./images/statue.jpg" alt="">
             <figcaption>
-                Beautiful Image of the Statue of Liberty in New York City
+                Beautiful Image of the Statue of Liberty
             </figcaption>
         </figure>
     </div>
@@ -94,19 +96,23 @@
     </ul>
 
     <form>
-        <label for="firstname">First name</label>
-        <input type="text" id="firstname">
+        <label for="firstname">First name</label><br>
+        <input type="text" id="firstname" placeholder="Enter your first name">
         <br><br>
 
-        <label for="lastname">Last name</label>
-        <input type="text" id="lastname">
+        <label for="lastname">Last name</label><br>
+        <input type="text" id="lastname" placeholder="Enter your last name">
         <br><br>
 
-        <label for="email">Email</label>
-        <input type="text" id="email">
+        <label for="email">Email Address</label><br>
+        <input type="text" id="email" placeholder="Enter your email address">
         <br><br>
 
-        <textarea name="" id="more-info" rows="5" placeholder="Describe more info"></textarea>
+        <textarea name="" id="more-info" rows="5" placeholder="Describe more about places you would like to visit"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
     </form>
+    </div>
 </body>
 </html>
